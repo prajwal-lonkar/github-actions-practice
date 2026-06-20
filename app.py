@@ -1,3 +1,4 @@
+# Code changed for linter to run ci/cd pipeline
 from flask import Flask, render_template
 app = Flask(_name_)
 
