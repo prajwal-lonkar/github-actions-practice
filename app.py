@@ -1,6 +1,6 @@
 # Code changed to auto run ci/cd pipeline for linter to check python code
 from flask import Flask, render_template
-app = Flask(_name_)
+app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
